@@ -1,0 +1,1 @@
+# Skistar-kassa
