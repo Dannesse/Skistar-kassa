@@ -1,0 +1,11 @@
+skidor/Fisher/1.5/3/160
+skidor/Fisher/1.8/4/210
+skidor/Head/1.6/1/270
+skidor/Rosingol/1.7/5/290
+skidor/Välk/1.7/5/275
+skidor/Välk/1.8/0/275
+skidor/Atomic/2.0/5/280
+skidor/Atomic/1.4/3/170
+skidor/Rosingol/1.8/3/290
+skidor/Head/1.7/0/270
+boende/Stuga/5.0/6/1700
