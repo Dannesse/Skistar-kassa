@@ -12,11 +12,14 @@ Klasskommentarer
 # Tutorial to a Readme (Titel på ditt projekt)
 
 ## Description (Beskrivning)
-Programmet är skriven i python och är en kassa i en skidort. Användaren kan hyra skidor, boende och liftkort. Det finns ett x antal i lagred och därför tas den mängden utrustningen som användaren hyr bort från lagret. Användaren har även ett alternativ på om användaren vill hyra eller lämna tillbacka.
+Programmet är skriven i python och är en kassa i en skidort. Användaren kan hyra skidor, boende och liftkort. Det finns ett x antal i "lagret"/lisat/fil och därför tas den mängden utrustningen som användaren hyr bort från lagret/filen. Användaren har även ett alternativ på om användaren vill hyra eller lämna tillbaka.
 
 ***Här bör du kort förklara vilket eller vilka språk programmet är skrivet i samt vad syftet med projektet är.***
 
 Denna README är skriven i markdown. Den är till för att ge ett exempel på vad en README kan innehålla och hur den kan se ut.
+
+## Språk och syfte
+Programmet är skriven i python. Det finns inte något speciellt syfte mer än att bli underhållen.  
 
 ## Språk
 - Python
@@ -34,41 +37,16 @@ Denna README är skriven i markdown. Den är till för att ge ett exempel på va
 
 ***Vad krävs för att köra ditt program? Lista bara kraven.***
 
-- Python 3.7+
-- pygame module
-- Flask module
-- React library
+- Python 3.9+
+- Visual studio code
 
 ## Installation
-- 
+- För att köra programmet måste du installera följande:
+- Visual studio code
+    Gå till https://code.visualstudio.com/?wt.mc_id=vscom_downloads och tryck på download
+- Python 
+    Gå till https://www.python.org/downloads/ och tyrck på download under download latest version
 
-***För att köra programmet listar du här vad som behövs och hur det installeras. Exempel:***
-
-Exempel 1: 
-
-1. Klona repot
-```cmd
-    git clone https://github.com/ditt_anv/reponamn
-```
-2. Installera Flask
-```cmd
-pip install Flask
-```
-3. Installera pygame
-```cmd
-pip install pygame
-```
-
-Exempel 2:
-
-Detta projekt är testat på Python 3.7+. För att installera Python kan du besöka (https://www.python.org/downloads/)[följande länk för senaste versionen.]
-
-Programmet kräver även att biblioteket Flask samt pygame är installerade. För att installera krävs python 3.7+ installerat, följt av att följande kodrader skrivs i terminalen: 
-
-```cmd
-pip install Flask
-pip install pygame
-```
 
 ## Code conventions (Kodkonvention)
 
@@ -79,6 +57,8 @@ pip install pygame
 ***Använd detta utrymme för att visa användbara exempel av hur projektet kan användas. Skärmdumpar, kodexempel och demos passar in här. Du kan också länka till fler resurser, exempelvis en dokumentation.***
 
 ## Example (exempelkörning)
+
+<img src ="./IMG/img 1.jpg">
 
 ***Visa gärna, genom ett kodblock från din konsol, eller en bild, hur en exempelkörning kan gå till.***
 
