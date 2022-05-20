@@ -47,10 +47,10 @@ Programmet är skriven i python. Det finns inte något speciellt syfte mer än a
 <img src ="./IMG/Exempel_kod.jpg">   
 
     
-- Det här uppdaterar listan till nya värden
+Det här uppdaterar listan till nya värden
 
 
-## Example (exempelkörning) + 
+## Example (exempelkörning)
 
 <img src ="./IMG/img 1.jpg">
 <img src ="./IMG/img 2.jpg">
