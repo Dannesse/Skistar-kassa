@@ -44,32 +44,14 @@ def load_alternitivs():
     f.close()
     return loan
 
-def rent_stuff(alternitiv,):
+def rent_stuff(alternitiv):
     """What the user sees and alternatives for what they want to do.
     Plus functions that remove what the user rents from the "werehouse"/file and add what the user returns
    
     Args:
-        price_amount (int): The price of what the user rents. If the user does not rent then the price is 0.
-        price_card (int): The price for the lift pass. If the user does not rent lift pass then the price is 0.
-        Running, running1, running2, running3: For while-loops. The loop/variable is true until it is named false.
-        Time_card (int): How long the user is going to rent the lift pass
-        time_amount (int): How many lift cards the user rents
-        price_card  (int): The total price for the lift pass
-        choice_after_card (str): The user choice to rent more or pay
-        choice_after_rent (str): To go to payment after the user has rented skis or accommodation.
-        loan1 (list): Go to function load_alternitivs to load and open the file with different alternatives.
-        choice_brand (str): User choose the brand they want
-        choice_thing (str): User chooses to rent skis or accommodations.
-        choice_size (int): User chooses a size.
-        new_amount (int): The new amount on what is rented.
-        thing, brand, size, amount, price: Is the attributes from the Class rent.
-        old_string (str): Is all old attributes and alternatives before the new amount changed.
-        new_sting (str): Is the "new" updated file white new amounts.
-        i (index)
-        _ (index)
-        loan_days (int): How long the user is going to rent
-        price_amout (int): Total cost for only the rented items (skis/accommodation)
-        total_price (int): Total price.
+
+    alternitiv (str): The user can choose to rent och return
+
     """
     price_amout = 0 
     price_card = 0
@@ -170,16 +152,8 @@ def rent_stuff(alternitiv,):
         print(f"\nDen totala kostnanden blir {total_price} kr, tack") 
 
 def return_loan(): #Returns items
-    """The user reterns what they have rented.
+    """The user reterns what they have rented."""
 
-    Args:
-        loan2 (list): Go to function load_alternitivs to load and open the file with different alternatives.
-        which_brand (str): User choose the brand thay want
-        wich_size (int): User choose a size.
-         
-
-
-    """
     print("----------------------")
     loan2 = load_alternitivs()
     for i in loan2:

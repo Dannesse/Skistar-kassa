@@ -28,95 +28,78 @@ Programmet är skriven i python. Det finns inte något speciellt syfte mer än a
 - Python 3.9+
 
 
-
-- Python
-- Markdown
-- HTML
-- CSS
-
-
 ***Vad krävs för att köra ditt program? Lista bara kraven.***
 
 - Python 3.9+
-- Visual studio code
 
 ## Installation
 - För att köra programmet måste du installera följande:
-- Visual studio code
-    Gå till https://code.visualstudio.com/?wt.mc_id=vscom_downloads och tryck på download
 - Python 
     Gå till https://www.python.org/downloads/ och tyrck på download under download latest version
 
 
-## Code conventions (Kodkonvention)
+## Kodkonvention
+-Frågorna är på svenska men en engelsktalande person kan läsa koden då variablerna och funktionernas namn är på engelska. PEP8 följs.
 
-***Detta är överkurs, men här kan du lista exempelvis hur filerna ska vara strukturerade, hur namngivning och kommentarer skrivs och massvis av annat. (Kan vara bra att förtydliga att PEP8 efterföljs.)***
 
 ## Hur det fungerar (Usage)
+- T.ex på koden     
+    thing, brand, size, amount, price = i.get_all_attributes()
+                    old_string = f"{thing}/{brand}/{size}/{amount}/{price}\n"
+                    new_string = f"{thing}/{brand}/{size}/{new_amount}/{price}\n"
+                    with open("Skistar-kassa\ent_ski.txt", "r+", encoding="utf8") as f:
+                        loan_list = f.readlines()
+                        for line_str in loan_list:
+                            if old_string == line_str:
+                                new_list.append(new_string)
+                            else:
+                                new_list.append(line_str)
+                        f.close()
+                    with open("Skistar-kassa\ent_ski.txt", "w", encoding="utf8") as f:
+                        for _ in new_list:
+                            f.write(_)
+                        f.close()
+- Det här uppdaterar listan till nya värden
 
-***Använd detta utrymme för att visa användbara exempel av hur projektet kan användas. Skärmdumpar, kodexempel och demos passar in här. Du kan också länka till fler resurser, exempelvis en dokumentation.***
 
-## Example (exempelkörning)
+## Example (exempelkörning) + 
 
 <img src ="./IMG/img 1.jpg">
+<img src ="./IMG/img 2.jpg">
 
-***Visa gärna, genom ett kodblock från din konsol, eller en bild, hur en exempelkörning kan gå till.***
+
 
 ## To do/Roadmap (Att göra/Plan)
-
-***Det kan vara nyttigt att få andra som läser om projektet att få veta vad du saknar just nu i programmet. Gör detta gärna genom en lista där färdiga saker strukits över.***
-Exempel:
-
-- [x] Påbörja exempelreadme
-- [ ] Hitta fler exempelrubriker
-- [ ] Kom på bättre exempel
-- [ ] Ge exempel på projekt med fullständig readme
-- [ ] Ytterligare språk
-    - [x] Svenska
-    - [ ] Engelska
+- [] Användaren får välja fler saker att hyra istället för en sak åt gången
+- [] Mer saker att hyra
+- [x] Kan hyra liftkort och skidor under samma betalning
 
 ## Changelog
-
-***Det kan vara rimligt att inkludera vad som har förändrats genom de olika iterationerna som ditt projekt gått igenom. Detta kan antingen göras i din README eller så kan du inkludera en CHANGELOG.md.***
-
-***I changelogen ska varje rubrik vara en version. Under varje version bör du inkludera vad du lagt till eller ändrat på (added or changed) under en rubrik samt vad du tagit bort (removed) under en annan. Exempel: ***
-
-### Version 1.0.1
+- Inget har ändars 
 
 #### Tillagt eller ändrat
+- Inget
 
-- La till avsnitt om changelog
-- La till avsnitt om kodkonventioner
+## Borttaget
 
-#### Borttaget
-
-- Tog bort tidigare rubriker som inte såg bra ut.
-- Tog bort felaktig rubrik om innehållsförteckning
+- Tog bort upprepad kod
 
 ## Att bidra (Contribution)
 
-***Inom programmeringsvärlden är det ofta populärt att man vill utveckla andras projekt och bidra till förbättring. För att underlätta detta är det bra om det i READMEn förklaras om det är tillåtet, och om det är det hur en går till väga för att kunna göra det. Detta avsnitt skulle se ut som följande:*** 
 
 Då bedömning ännu ej är gjord på uppgiften så tillåts inga pull requests. Så fort bedömning är gjord kommer detta tillåtas.  
 
-Vid större förändringar önskar jag att en issue öppnas för diskussion om vad som ska förändras.
+
 
 ## Licens (License)
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact (Kontakt)
+Daniel Jonsson - daniel.jonsson4@elev.ga.ntig.se
 
-***Skriv här hur du blir kontaktad ifall det finns frågor om projektet***
-
-Ditt Namn - @din_twitter (eller discord? annan plattform?) - email@example.com
-
-Projektlänk: https://github.com/ditt_anv/reponamn
+Projektlänk: https://github.com/Dannesse/Skistar-kassa
 
 ## Erkännanden (Acknowledgments)
-
-***Här kan du lista resurser eller personer som har hjälpt dig med projektet. Det kan vara länkar till tutorials eller dokumentation, eller bara någon annans profil som du vill uppmärksamma. Har du inget som behöver tas här så kan du strunta i rubriken. ***
-
-- Mamma och Pappa
-- [En jättebra låt](https://www.youtube.com/watch?v=cvh0nX08nRw)
-- Dan Hermansson
+-Niclas Lund
+-Christopher Christensen
