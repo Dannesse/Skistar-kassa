@@ -89,5 +89,5 @@ Daniel Jonsson - daniel.jonsson4@elev.ga.ntig.se
 Projektlänk: https://github.com/Dannesse/Skistar-kassa
 
 ## Erkännanden (Acknowledgments)
--Niclas Lund
--Christopher Christensen
+- Niclas Lund
+- Christopher Christensen
