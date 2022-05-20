@@ -43,22 +43,10 @@ Programmet är skriven i python. Det finns inte något speciellt syfte mer än a
 
 
 ## Hur det fungerar (Usage)
-- T.ex på koden     
-    thing, brand, size, amount, price = i.get_all_attributes()
-                    old_string = f"{thing}/{brand}/{size}/{amount}/{price}\n"
-                    new_string = f"{thing}/{brand}/{size}/{new_amount}/{price}\n"
-                    with open("Skistar-kassa\ent_ski.txt", "r+", encoding="utf8") as f:
-                        loan_list = f.readlines()
-                        for line_str in loan_list:
-                            if old_string == line_str:
-                                new_list.append(new_string)
-                            else:
-                                new_list.append(line_str)
-                        f.close()
-                    with open("Skistar-kassa\ent_ski.txt", "w", encoding="utf8") as f:
-                        for _ in new_list:
-                            f.write(_)
-                        f.close()
+- T.ex på koden  
+<img src ="./IMG/Exempel_kod.jpg">   
+
+    
 - Det här uppdaterar listan till nya värden
 
 
