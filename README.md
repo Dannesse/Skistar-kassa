@@ -1,22 +1,14 @@
 # Skistar-kassa
 Skistar_kassa
 Mitt slutprojekt i programmering 1 är en skistar-kassa. 
-.
-8:50
 
 Daniel Jonsson
 NL_README.md
-Text
-Klasskommentarer
 
 # Tutorial to a Readme (Titel på ditt projekt)
 
 ## Description (Beskrivning)
 Programmet är skriven i python och är en kassa i en skidort. Användaren kan hyra skidor, boende och liftkort. Det finns ett x antal i "lagret"/lisat/fil och därför tas den mängden utrustningen som användaren hyr bort från lagret/filen. Användaren har även ett alternativ på om användaren vill hyra eller lämna tillbaka.
-
-***Här bör du kort förklara vilket eller vilka språk programmet är skrivet i samt vad syftet med projektet är.***
-
-Denna README är skriven i markdown. Den är till för att ge ett exempel på vad en README kan innehålla och hur den kan se ut.
 
 ## Språk och syfte
 Programmet är skriven i python. Det finns inte något speciellt syfte mer än att bli underhållen.  
@@ -58,8 +50,8 @@ Det här uppdaterar listan till nya värden
 
 
 ## To do/Roadmap (Att göra/Plan)
-- [] Användaren får välja fler saker att hyra istället för en sak åt gången
-- [] Mer saker att hyra
+- [ ] Användaren får välja fler saker att hyra istället för en sak åt gången
+- [ ] Mer saker att hyra
 - [x] Kan hyra liftkort och skidor under samma betalning
 
 ## Changelog

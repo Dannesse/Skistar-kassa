@@ -31,7 +31,7 @@ class Rent:
 def load_alternitivs():
     """Open the file with all the options""" 
     
-    with open("Skistar-kassa\ent_ski.txt", "r", encoding="utf8") as f:
+    with open("ent_ski.txt", "r", encoding="utf8") as f:
         loan = []
         for line in f.readlines():
             attributes = line.split("/")
@@ -118,7 +118,7 @@ def rent_stuff(alternitiv):
                     thing, brand, size, amount, price = i.get_all_attributes()
                     old_string = f"{thing}/{brand}/{size}/{amount}/{price}\n"
                     new_string = f"{thing}/{brand}/{size}/{new_amount}/{price}\n"
-                    with open("Skistar-kassa\ent_ski.txt", "r+", encoding="utf8") as f:
+                    with open("ent_ski.txt", "r+", encoding="utf8") as f:
                         loan_list = f.readlines()
                         for line_str in loan_list:
                             if old_string == line_str:
@@ -126,7 +126,7 @@ def rent_stuff(alternitiv):
                             else:
                                 new_list.append(line_str)
                         f.close()
-                    with open("Skistar-kassa\ent_ski.txt", "w", encoding="utf8") as f:
+                    with open("ent_ski.txt", "w", encoding="utf8") as f:
                         for _ in new_list:
                             f.write(_)
                         f.close()
@@ -191,7 +191,7 @@ def main():
     print("Hej och välkommen till skistars kassa.")
     alternitiv1 = input("Vill du: \na) Hyra \nb) Lämna tillbaka\nSkriv här: ")
     if alternitiv1 == "a":
-        alternitiv = input ("\nVad vill du göra? Du kan antagligen: \na) Hyra utrustning och/eller boende \nb) köpa liftkort eller båda\nSkirv här: ")
+        alternitiv = input ("\nVad vill du göra? Du kan: \na) Hyra utrustning och/eller boende \nb) köpa liftkort eller båda\nSkirv här: ")
         print("")
         rent_stuff(alternitiv)
     if alternitiv1 == "b":
